@@ -1,0 +1,17 @@
+Empirical   P(Fraud | Flagged) = 0.0200
+Theoretical P(Fraud | Flagged) = 0.0192
+Absolute difference            = 0.0008
+
+Confusion matrix (counts out of 100,000):
+                     Flagged  Not flagged
+Actually fraud           100            2
+Actually legitimate     4892        95006
+
+Fraudulent transactions simulated : 102
+Total flagged                     : 4,992
+Precision  TP/(TP+FP)             : 0.0200
+Recall     TP/(TP+FN)             : 0.9804
+Specificity TN/(TN+FP)            : 0.9510
+
+Specificity 0.99 — empirical 0.0931, theoretical 0.0893
+False positives: 4,892 -> 974
